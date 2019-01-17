@@ -85,10 +85,13 @@
 	}
 }
 
-.login-bg{
-	background:{
-		image: url('https://images.pexels.com/photos/8128/night.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-		size: cover !important;
-		position: bottom center !important;
+.hide-overflow{
+	overflow: hidden !important;
+}
+
+.map-dashboard{
+	.alert{
+		margin: 0px;
+		border-radius: 0px;
 	}
 }
