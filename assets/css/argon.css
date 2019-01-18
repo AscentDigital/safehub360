@@ -15,7 +15,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-:root { --blue: #5e72e4; --indigo: #5603ad; --purple: #8965e0; --pink: #f3a4b5; --red: #f5365c; --orange: #fb6340; --yellow: #ffd600; --green: #2dce89; --teal: #11cdef; --cyan: #2bffc6; --white: #fff; --gray: #8898aa; --gray-dark: #32325d; --light: #ced4da; --lighter: #e9ecef; --primary: #123566; --secondary: #f7fafc; --success: #2dce89; --info: #11cdef; --warning: #fb6340; --danger: #f5365c; --light: #adb5bd; --dark: #212529; --default: #172b4d; --white: #fff; --neutral: #fff; --darker: black; --breakpoint-xs: 0; --breakpoint-sm: 576px; --breakpoint-md: 768px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: Open Sans, sans-serif; --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+:root { --blue: #5e72e4; --indigo: #5603ad; --purple: #8965e0; --pink: #f3a4b5; --red: #f5365c; --orange: #fb6340; --yellow: #ffd600; --green: #2dce89; --teal: #11cdef; --cyan: #2bffc6; --white: #fff; --gray: #8898aa; --gray-dark: #32325d; --true_blue: blue; --true_red: red; --light: #ced4da; --lighter: #e9ecef; --primary: #123566; --secondary: #f7fafc; --success: #2dce89; --info: #11cdef; --warning: #fb6340; --danger: #f5365c; --light: #adb5bd; --dark: #212529; --default: #172b4d; --white: #fff; --neutral: #fff; --darker: black; --breakpoint-xs: 0; --breakpoint-sm: 576px; --breakpoint-md: 768px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: Open Sans, sans-serif; --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *, *::before, *::after { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
@@ -3403,6 +3403,14 @@ a.bg-gray:hover, a.bg-gray:focus, button.bg-gray:hover, button.bg-gray:focus { b
 
 a.bg-gray-dark:hover, a.bg-gray-dark:focus, button.bg-gray-dark:hover, button.bg-gray-dark:focus { background-color: #20203c !important; }
 
+.bg-true_blue { background-color: blue !important; }
+
+a.bg-true_blue:hover, a.bg-true_blue:focus, button.bg-true_blue:hover, button.bg-true_blue:focus { background-color: #0000cc !important; }
+
+.bg-true_red { background-color: red !important; }
+
+a.bg-true_red:hover, a.bg-true_red:focus, button.bg-true_red:hover, button.bg-true_red:focus { background-color: #cc0000 !important; }
+
 .bg-light { background-color: #ced4da !important; }
 
 a.bg-light:hover, a.bg-light:focus, button.bg-light:hover, button.bg-light:focus { background-color: #b1bbc4 !important; }
@@ -3460,6 +3468,10 @@ a.bg-lighter:hover, a.bg-lighter:focus, button.bg-lighter:hover, button.bg-light
 .bg-gradient-gray { background: linear-gradient(87deg, #8898aa 0, #888aaa 100%) !important; }
 
 .bg-gradient-gray-dark { background: linear-gradient(87deg, #32325d 0, #44325d 100%) !important; }
+
+.bg-gradient-true_blue { background: linear-gradient(87deg, blue 0, #6a00ff 100%) !important; }
+
+.bg-gradient-true_red { background: linear-gradient(87deg, red 0, #ff6a00 100%) !important; }
 
 .bg-gradient-light { background: linear-gradient(87deg, #ced4da 0, #cecfda 100%) !important; }
 
@@ -3956,6 +3968,14 @@ a.text-gray:hover, a.text-gray:focus { color: #6a7e95 !important; }
 .text-gray-dark { color: #32325d !important; }
 
 a.text-gray-dark:hover, a.text-gray-dark:focus { color: #20203c !important; }
+
+.text-true_blue { color: blue !important; }
+
+a.text-true_blue:hover, a.text-true_blue:focus { color: #0000cc !important; }
+
+.text-true_red { color: red !important; }
+
+a.text-true_red:hover, a.text-true_red:focus { color: #cc0000 !important; }
 
 .text-light { color: #ced4da !important; }
 
