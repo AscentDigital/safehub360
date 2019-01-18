@@ -343,6 +343,7 @@ var noUiSlider = (function() {
 					var sliderId = slider.attr('id');
 					var minValue = slider.data('range-value-min');
 					var maxValue = slider.data('range-value-max');
+					var inputTarget = slider.data('input-target');
 
 					var sliderValue = $(this).find('.range-slider-value');
 					var sliderValueId = sliderValue.attr('id');
@@ -357,8 +358,10 @@ var noUiSlider = (function() {
 							//step: 1000,
 							range: {
 									'min': [parseInt(minValue)],
-									'max': [parseInt(maxValue)]
-							}
+									'max': [parseInt(maxValue)],
+							},
+							snap: true,
+							step: 10
 					});
 
 					c.noUiSlider.on('update', function(a, b) {
