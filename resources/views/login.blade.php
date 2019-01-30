@@ -53,7 +53,7 @@
              </div>
              <div class="text-center">
                <!-- <button type="button" class="btn btn-primary my-4">Sign in</button> -->
-               <a href="./dashboard.html" role="button" class="btn btn-primary my-4">Sign in</a>
+               <a href="/dashboard" role="button" class="btn btn-primary my-4">Sign in</a>
              </div>
            </form>
          </div>

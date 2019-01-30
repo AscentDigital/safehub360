@@ -23,7 +23,6 @@
     @include('layouts.partials.guest-nav')
 
     @yield('content')
-
     <!-- Footer -->
     <footer class="py-5">
       <div class="container">
@@ -52,6 +51,7 @@
         </div>
       </div>
     </footer>
+  </div>
     <!-- Argon Scripts -->
     <!-- Core -->
     <script src="/vendor/jquery/dist/jquery.min.js"></script>

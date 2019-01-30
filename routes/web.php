@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('login');
-});
+Route::get('/', 'SessionsController@index');
+Route::get('/dashboard', 'DashboardController@index');
